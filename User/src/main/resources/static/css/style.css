@@ -1,0 +1,71 @@
+body{
+    background-color: aqua;
+}
+.content{
+    background-color: white;
+    width: 25%;
+    margin-top: 7%;
+    padding: 12px;
+    border:1px solid #227ad1;
+}
+
+h1{
+    font-weight: bold;
+    
+}
+
+.input-style{
+    border-radius: 5em;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.input-color{
+    background-color: aqua;
+}
+
+.text-color{
+    color: black;
+    
+}
+
+.icons{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sgin-in{
+    text-decoration: none;
+    font-weight: bold;
+    color : blue
+}
+
+   @media screen and (max-width:320px){
+    .content{
+        width: 100%;
+    }
+   }
+
+   @media screen and (min-width:321px) and (max-width:481px){
+    .content{
+        width: 70%;
+    }
+   }
+
+   @media screen and (min-width:481px) and (max-width:769px){
+    .content{
+        width: 55%;
+    }
+   }
+
+   @media screen and (min-width:769px) and (max-width:1025px){
+    .content{
+        width: 40%;
+    }
+   }
+
+   @media screen and (min-width:1025px) and (max-width:1201px){
+    .content{
+        width: 35%;
+    }
+   }
